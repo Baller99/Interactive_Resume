@@ -1,0 +1,260 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: "Playfair Display SC", sans-serif;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f5a623;
+  line-height: 48px;
+  display: inline;
+}
+
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+ 
+}
+.online-entry {
+  padding-left: 1px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+
+}
+
+hr {
+  height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #837b82;
+  line-height: 28px;
+}
+
+#skills-h3 {
+  color: #f5ae23;
+  display: none;
+  padding-bottom: 5px;
+}
+
+h1#name {
+  color: #400000;
+}
+
+.orange {
+  background-color: #f5ae23;
+}
+
+.orange-text {
+  color: #f5ae23;
+}
+
+.white-text {
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #4a4a4a;
+}
+
+/* TODO: Replace with image later */
+#header {
+    background-color: #dde3ec;
+    -webkit-animation-name: change; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 6s; /* Chrome, Safari, Opera */
+    animation-name: change;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes change {
+    0%   {background-color: #f0e7e7;}
+    50%  {background-color: #fe733c;}
+    75%  {background-color: #80b2f3;}
+    100% {background-color: #52ea17;}
+}
+
+/* Standard syntax */
+@keyframes change {
+    0%   {background-color: #f0e7e7;}
+    50%  {background-color: #fe733C;}
+    70%  {background-color: #80b2f3;}
+    100% {background-color: #52ea17;}
+}
+
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul.white-text {
+  padding-left: 230px;
+}
+
+li.flex-item {
+  list-style-type: circle;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}

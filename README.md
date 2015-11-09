@@ -1,0 +1,1 @@
+Created an interactive resume as part of a project for the Udacity Front End Developer Nanodegree
