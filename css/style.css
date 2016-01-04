@@ -48,6 +48,10 @@ h3 {
  
 }
 .online-entry {
+  font-size: 24px;
+  font-weight: bold;
+  color: #999;
+  line-height: 29px;
   padding-left: 1px;
 }
 
@@ -120,6 +124,7 @@ a {
 
 h1#name {
   color: #400000;
+  padding-left: 20px;
 }
 
 .orange {
@@ -203,11 +208,11 @@ li.flex-item {
 }
 
 img {
-  padding: 10px;
+  padding: 5px;
 }
 
 span {
-  padding: 5px;
+  padding: 20px;
 }
 
 #lets-connect {

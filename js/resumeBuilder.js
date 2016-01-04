@@ -4,13 +4,13 @@ var bio = {
     "contacts": {
         "email": "nabilarif14@gmail.com",
         "github": "https://github.com/Baller99",
-        "location": "Wichita"
+        "location": "Wichita, KS"
     },
     "welcomeMessage": "Welcome!",
     "skills": [
         "HTML", "CSS", "JavaSricpt", "PHP", "Wordpress", "jQuery"
     ],
-    "bioPic": "images/fry.jpg"
+    "bioPic": "images/mylogo.png"
 };
 
 bio.display = function() {
@@ -75,11 +75,25 @@ work.display();
 
 var projects = {
     "projects": [{
-        "title": "Sample Project 1",
-        "dates": "2014",
-        "description": "My first Project",
-        "images": ["images/197x148.gif"]
-
+        "title": "Arcade Game Clone",
+        "dates": "2015",
+        "description": "Clone of classic arcade game made using HTML 5 canvas and JavaScript",
+        "images": ["images/arcade_game.png"]
+    },  {
+        "title": "Website Optimization",
+        "dates": "2015",
+        "description": "Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.",
+        "images": ["images/project4.png"]
+    },  {
+        "title": "Neighborhood Map",
+        "dates": "2015",
+        "description": "A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest.",
+        "images": ["images/project5.png"]
+    },  {
+        "title": "Feed Reader Testing",
+        "dates": "2015",
+        "description": "Wrote comprehensive unit tests, using the Jasmine testing framework, for an RSS Feed Reader application that uses Google's RSS API.",
+        "images": ["images/project6.png"]
     }]
 }
 
@@ -111,14 +125,14 @@ var education = {
     "schools": [{
         "name": "Wichita State University",
         "location": "Wichita, KS, US",
-        "degree": "BA",
+        "degree": "BBA",
         "major": "Marketing",
         "dates": "2013-2015"
     }, {
         "name": "North Seattle Community College",
         "location": "Seattle, WA, US",
         "degree": "Associates",
-        "major": "Business Admin",
+        "major": "Associate of Business Administration",
         "dates": "2011-2013"
     }],
 
